@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 6</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content">
+            <table class="one">
+                <thead>
+                    <tr>
+                        <th class="checkbox"> <input type="checkbox" class="checkAll" name="" value=""></th>
+                        <th class="name"> Name</th>
+                        <th class="phone"> Phone</th>
+                        <th class="email"> Email</th>
+                        <th class="action">Action</th>
+                    </tr>
+                </thead>
+            </table>
+            <table class="tow" id="render">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="conten-end">
+            <div class="ctl">
+                <button id="add" onclick="add()"> ADD</button>
+                <button id="delete" onclick="remove()">Delete</button>
+            </div>
+            <div class="formAdd">
+                <div class="validate"> </div>
+                <form class="add" >
+                    <span>Name</span> <input class="clear" type="text" name="name" value="" id="name"> <span id="name_error"></span>
+                    <span>Phone </span> <input class="clear"  type="number" name="phone" value="" id='phone'><span id="phone_eror"></span>
+                    <span> Email </span><input class="clear"  type="text" name="email" value="" id="email"><span id="email_error"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
