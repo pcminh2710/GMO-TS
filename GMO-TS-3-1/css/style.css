@@ -1,0 +1,116 @@
+.container {
+}
+.wrap {
+  display: flex;
+  border: solid 2px black;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  justify-content: center;
+}
+.message {
+  margin: 10px 30px;
+  border: solid 1px;
+  min-width: 0%;
+  width: 40%;
+}
+.content {
+  height: 500px;
+  width: 100%;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-message,
+.content-message-2 {
+  padding: 0 10px;
+}
+.controler {
+  margin: 10px 20px;
+}
+.send {
+  display: flex;
+  margin: 10px 20px;
+  flex-wrap: wrap;
+}
+ul li {
+  list-style: none;
+
+  margin-top: 4px;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.content__send {
+  border: solid 1px;
+  max-width: 250px;
+  min-width: 10%;
+  min-height: 50px;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+#dam,
+#nghieng,
+#reset,
+#dam-2,
+#nghieng-2,
+#reset-2 {
+  width: 80px;
+  height: 30px;
+}
+
+#send,
+#send-2 {
+  background-color: white;
+  padding: 26px 30px;
+}
+.choose {
+  background-color: rgb(250, 146, 48);
+  color: white;
+}
+
+ul {
+  width: 100%;
+}
+
+.mes {
+  display: inline-block;
+  width: 100%;
+}
+
+.sender {
+  display: block;
+  text-align: right;
+  color: red;
+}
+.receiver {
+  text-align: left;
+  color:blue
+}
+
+li + li {
+  margin-top: 5px;
+}
+@media (max-width: 740px) {
+  #send, #send-2 {
+    background-color: white;
+    padding: 10px 15px;
+}
+.wrap {
+  display: flex;
+ 
+  width: 100%;
+  flex-direction: column;
+}
+.message {
+  width: auto;
+}
+.wrap {
+ width: auto;
+ margin-left: 0;
+}
+}

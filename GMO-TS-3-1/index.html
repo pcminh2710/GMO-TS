@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <div class="message">
+                <div class="content">
+                    <ul class="content-message">
+                    </ul>
+                </div>
+                <div class="controler">
+                    <button id="dam" onclick="handleBoldOne()"><b>Đậm</b></button>
+                    <button id="nghieng" onclick="handleItalicOne()"> <i>Nghiên</i> </button>
+                    <button id="reset" onclick="reset()">Reset</button>
+                </div>
+                <div class="send">
+                    <textarea type="text" id="content-send" name="content-send" value="" class="content__send"> </textarea>
+                    <div class="btn__send">
+                        <button id="send" onclick="clickSend()">SEND</button>
+                    </div>
+                </div>
+            </div>
+            <div class="message">
+                <div class="content">
+                    <ul class="content-message-2">
+                    </ul>
+                </div>
+                <div class="controler">
+                    <button id="dam-2" onclick="handleBoldTwo()" class=""><b>Đậm</b></button>
+                    <button id="nghieng-2" onclick="handleItalicTwo()"> <i>Nghiên</i> </button>
+                    <button id="reset-2" onclick="reset2()">Reset</button>
+                </div>
+                <div class="send">
+                    <textarea type="text" name="" value="" id="content-send-2" class="content__send"></textarea>
+
+                    <div class="btn__send">
+                        <button id="send-2" onclick="clickSend2()">SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
