@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.wrap {
+  margin-top: 10px;
+}
+.one {
+  display: block;
+  margin: 0 auto;
+  border: solid 1px;
+  width: 920px;
+}
+.tow {
+  display: block;
+  margin: 0 auto;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  width: 920px;
+}
+.content input:focus {
+  outline: none;
+}
+.content input {
+  outline: none;
+  border: none;
+  padding: 10px 0;
+  background-color: white;
+  color: black;
+  min-width: 0;
+}
+.checkbox,
+.name,
+.phone,
+.email {
+  width: 180px;
+  margin: 0px 30px;
+  border-right: solid 1px;
+  height: 50px;
+}
+.action {
+  width: 180px;
+  height: 50px;
+  margin: 0px 30px;
+}
+.ctl, .add {
+  display: block;
+  margin: 0 auto;
+  width: 920px;
+}
+#add,
+#delete {
+  padding: 12px 0;
+  min-width: 150px;
+}
+#delete {
+  margin-top: 10px;
+}
+.formAdd {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+}
+.validate {
+  width: 55%;
+  display: block;
+  margin: 20px auto;
+  color: red;
+  font-style: italic;
+}
+.formAdd span {
+  margin-right: 20px;
+}
+.formAdd span input {
+  padding: 10px 0;
+  margin-left: 10px;
+}
+input {
+  cursor: pointer;
+}
